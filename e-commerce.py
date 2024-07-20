@@ -83,7 +83,7 @@ while True:
     user_input = input("Enter option number: ")
 
     if user_input == '1':
-        print("\nSelect a product to add to the cart:")
+        print("\nAdd to the cart:")
         product_id = int(input("Product ID: "))
         selected_product = next((product for product in products if product.id == product_id), None)
         if selected_product:
